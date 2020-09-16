@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600;1,900&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+<h1 id="title">freeCodeCamp Survey Form </h1>
+<p id="description">Thank you for taking the time to help up improve the platform.</p>  
+</header>
+<main>
+    <div class="form-div">
+        
+<form id=survey-form>
+
+<label id="name-label" for="name">
+    Name
+</label>
+<br>
+<input id="name" type="text" name="name"placeholder="Jane Doe" required >
+
+<br>
+<br>
+
+<label id="email-label" for="email">
+    Email
+</label>
+    <br>
+    <input id="email" type="email" name="email" placeholder="Janedoe@gmail.com" required>
+<br>
+<br>
+<label id="number-label" for="age">
+    Age <span class="optional">(optional)
+        </span>
+</label>
+    <br>
+    <input id="number" type="number" name="age" min="13" max="100" placeholder="21">
+<br>
+<br>
+<label for="current role">
+    Which option best describes your current role?
+</label>
+    <br>
+    <select id="dropdown"  name="current role" placeholder="Select Current Role">
+        <option value="default-text"  selected="selected"disabled>
+           Select Current Role 
+        </option>
+        <option value="student">
+            Student
+        </option>
+        <option value="full-time-job">
+            Full Time Job
+        </option>
+        <option value="full-time-learner">
+            Full Time Learner
+        </option>
+        <option value="prefer-not-to-say">
+            Prefer not to say
+        </option>
+        <option value="other">
+            Other
+        </option>
+    </select>
+<br>
+<br>
+<label name="recommend-to-a-friend">
+    Would you recommend freeCodeCamp to a friend?
+</label>
+    <br>
+      <fieldset>
+        <input type="radio" value="definitely" name="recommendation">
+        Definitely
+        <br>
+       
+        <input type="radio" value="maybe" name="recommendation">
+        Maybe
+        <br>
+      
+        <input type="radio" value="not-sure" name="recommendation" checked="checked">
+        Not Sure
+        </fieldset>
+
+<br>
+<label name="favorite-feature">
+    What is your favorite feature of freeCodeCamp?
+</label>
+    <br>
+    <select id="dropdown" name="favorite-feature">
+        <option value=default disabled selected="selected">
+            Select an option
+        </option>
+        <option value="Challenges">
+            Challenges
+        </option>
+        <option value="projects">
+            Projects
+        </option>
+        <option value="community">
+            Community
+        </option>
+        <option value="open-source">
+            Open Source
+        </option>
+        </select>
+<br>
+<br>
+<label name="improvements-needed">
+What would you like to see improved?<span class="check-apply">(Check all that apply)
+</span>
+</label>
+<br>
+<fieldset>
+<input type="checkbox" value="frontend-projects"name="improvements">
+Front-end Projects
+<br>
+<input type="checkbox" value="backend-projects" name="improvements">
+Back-end Projects
+<br>
+<input type="checkbox" value="data-vizualization" name="improvements">
+Data-Visualization
+<br>
+<input type="checkbox" value="challenges" name="improvements">
+Challenges
+<br>
+<input type="checkbox" value="open-source-comm" name="improvements">
+Open Source Community
+<br>
+<input type="checkbox" value="glitter-help-rooms" name="improvements">
+Glitter help rooms
+<br>
+<input type="checkbox" value="videos" name="improvements">
+Videos
+<br>
+<input type="checkbox" value="city-meetups" name="improvements">
+City Meetups
+<br>
+<input type="checkbox" value="wiki" name="improvements">
+Wiki
+<br>
+<input type="checkbox" value="forum" name="improvements">
+Forum
+<br>
+<input type="checkbox" value="additional-courses" name="improvements">
+Additional Courses
+</fieldset>
+
+<br>
+<label for="comments">
+Any comments or suggestions?
+</label>
+<br/>
+<textarea name="comments">
+    Enter text here...
+</textarea>
+<br>
+<div class="submit-bttn">
+<button id="submit" type="submit">
+    Submit
+</button>
+</div>
+</form>
+    </form>
+</main>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+/*Background and label font styling */
+body{
+    background: rgb(222,162,145);
+background: linear-gradient(90deg, rgba(222,162,145,1) 0%, rgba(159,105,118,1) 45%, rgba(113,70,116,1) 97%);
+font-family: 'Roboto Slab', serif;
+color: #432371;
+}
+/*Header */
+header{
+    text-align:center;
+    color: whitesmoke;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+/* Form layout and Form element styling */
+.form-div{
+  width: 600px;
+  height: 100%;
+  margin: auto;
+background-color: rgba(253,187,45,.40);
+-webkit-box-shadow: -38px 28px 48px -23px rgba(0,0,0,0.60);
+-moz-box-shadow: -38px 28px 48px -23px rgba(0,0,0,0.60);
+box-shadow: -38px 28px 48px -23px rgba(0,0,0,0.60);
+display: flex;
+justify-content: center;
+border-radius: 5%;
+}
+fieldset{
+    border: none;
+}
+textarea{
+    font-family: 'Roboto Slab', serif;
+    color: #432371;
+    width: 400px;
+    border: none;
+    
+}
+
+/*  smaller text on labels*/
+.check-apply{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 12px;
+}
+.optional{
+    font-family: 'Playfair Display', serif;
+
+    font-size: 12px;
+    
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+input{
+    border: none;
+}
+select{
+    border: none;
+}
+
+/* Submit bttn and sumbit bttn div*/
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #432371;
+    color:whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 25%;
+    -webkit-box-shadow: 5px 5px 5px -3px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 5px -3px rgba(59, 55, 55, 0.5);
+}
+.submit-bttn{
+    position: relative;
+    left: 150px;
+}
